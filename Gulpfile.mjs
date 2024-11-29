@@ -784,7 +784,7 @@ const dtsBundles = bool(process.env.BABEL_8_BREAKING)
 const standaloneBundle = [
   {
     src: "packages/babel-standalone",
-    format: "umd",
+    format: "esm",
     name: "Babel",
     filename: "babel.js",
     dest: "",
